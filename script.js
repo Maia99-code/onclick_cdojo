@@ -13,5 +13,5 @@ function eliminarBoton() {
 }
 
 function mostrarAlerta() {
-    alert("¡Haz hecho clic en el botón 'me gusta'!");
+    alert("Gato atigrado was liked");
 }
