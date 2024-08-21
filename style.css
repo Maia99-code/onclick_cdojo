@@ -1,0 +1,180 @@
+body {
+    font-family: lato, Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #D3D3D3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* card */
+
+.card--izquierda {
+    background-color: #fff;
+    padding: 10px 20px 35px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* para dos tarjetas en una fila */
+    width:600px;
+    height: 350px;
+    flex: 3;
+}
+
+
+.content--card--derecha{
+    display: flex;
+}
+.card--derecha {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 270px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+/* inputs */
+
+.input--text {
+    width: 340px;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #333;
+}
+
+.input--text:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input--button {
+    display: inline-block;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    color: #007bff;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.input--button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.input--button--right {
+    display: inline-block;
+    height: 35px;
+    padding: 10px 10px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #03750b;
+    color: #03750b;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.input--button--right:hover {
+    background-color: #03750b;
+    color: #fff;
+}
+
+.left{
+    flex: 3;
+}
+.right{
+    flex: 1;
+}
+
+.card--left--p{
+    font-size: 45px;
+}
+
+.card--left--cursive{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.plour--p{
+    font-size: 20px;
+
+}
+
+.plour--span{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.input--plour {
+    display: inline-block;
+    height: 35px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFD966;
+    color: #FFD966;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.input--plour:hover {
+    background-color: #FFD966;
+    color: #fff;
+}
